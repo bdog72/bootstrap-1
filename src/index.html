@@ -10,32 +10,141 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <div class="page-header">
-            <h1>Bootstrap Bootstrap Bootstrap</h1>
-            <div class="jumbotron">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <p>
-                    <a href="#" class="btn btn-default btn-lg" role="button">More info</a>
-                    <button type="submit" class="btn btn-danger" role="button">Button</button>
-                    <input type="button" value="Info" class="btn btn-info">
-                    <button type="submit" class="btn-primary btn-sm">Primary</button>
-                    <button type="submit" class="btn btn-success btn-xs">Success</button>
-                    <button type="submit" class="btn btn-warning btn-lg">Warning</button>
-                    <button type="submit" class="btn btn-link btn-lg">Link</button>
-                    <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
-                    <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
-                    <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default">Small</button>
-                        <button type="button" class="btn btn-default">Medium</button>
-                        <button type="button" class="btn btn-default">Large</button>
-                    </div>
-                </p>
+            <h1>Bootstrap</h1>
+        </div>
+        <div class="jumbotron">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>
+                <a href="#" class="btn btn-default btn-lg" role="button">More info</a>
+                <button type="submit" class="btn btn-danger" role="button">Button</button>
+                <input type="button" value="Info" class="btn btn-info">
+                <button type="submit" class="btn-primary btn-sm">Primary</button>
+                <button type="submit" class="btn btn-success btn-xs">Success</button>
+                <button type="submit" class="btn btn-warning btn-lg">Warning</button>
+                <button type="submit" class="btn btn-link btn-lg">Link</button>
+                <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
+                <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+                <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default">Small</button>
+                    <button type="button" class="btn btn-default">Medium</button>
+                    <button type="button" class="btn btn-default">Large</button>
+                </div>
+            </p>
+            <p>
+                <span class="glyphicon glyphicon-film"></span>
+                <a href="#" class="btn btn-primary btn-lg">Trash <span class="glyphicon glyphicon-trash"></span></a>
+                <button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> Call Me
+</button>
+            </p>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Favorite Hero
+    <span class="caret"></span>
+  </button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">Marvel</li>
+                    <li><a href="#">Spiderman</a></li>
+                    <li><a href="#">Captain America</a></li>
+                    <li><a href="#">Iron Man</a></li>
+
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">DC</li>
+
+                    <li class="disabled"><a href="#">Superman</a></li>
+                    <li><a href="#">Batman</a></li>
+                    <li><a href="#">Flash</a></li>
+                </ul>
+            </div>
+        </div><br>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                <h4><a href="#col1Content" data-toggle="collapse">Column 1</a></h4>
+                <div id="col1Content" class="collapse in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla at libero at finibus a pretium justo nulla sit amet nunc. Vestibulum finibus, lacus at gravida condimentum, tellus mauris imperdiet orci.</div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                <h4><a href="#col2Content" data-toggle="collapse">Column 2</a></h4>
+                <div id="col2Content" class="collapse">Quisque rutrum augue odio, eu placerat diam bibendum id. Donec at fringilla leo, non varius magna. Vestibulum finibus, lacus at gravida condimentum, tellus mauris imperdiet orci, a pretium justo nulla sit amet nunc. Class aptent taciti
+                    sociosqu ad litora torquent per conubia.</div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h4><a href="#col3Content" data-toggle="collapse">Column 3</a></h4>
+                <div id="col3Content" class="collapse">Pellentesque vulputate faucibus leo, non blandit ante faucibus maximus. Nunc non neque laoreet, tincidunt nisl et, tristique odio. Nullam imperdiet sollicitudin neque malesuada ornare. Curabitur ultrices urna id gravida lacinia. Nunc eu
+                    neque vitae nisi luctus rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</div>
             </div>
         </div>
     </div>
+    <br>
+    <h1>Example heading <span class="label label-default">New</span></h1>
+  <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="http://d21vu35cjx7sd4.cloudfront.net/dims3/MMAH/thumbnail/645x380/quality/90/?url=http%3A%2F%2Fs3.amazonaws.com%2Fassets.prod.vetstreet.com%2F75%2F371580ca7a11e0ad9e12313817c323%2Ffile%2FBeagle-1-645mk062311.jpg" alt="...">
+      <div class="caption">
+        <h3>Beagle Puppy</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a href="https://www.google.com/search?q=beagle+pictures&espv=2&biw=960&bih=472&tbm=isch&imgil=Nyhyr66T8Z4biM%253A%253BLI2EN1cPwTI_hM%253Bhttp%25253A%25252F%25252Fwww.vetstreet.com%25252Fdogs%25252Fbeagle&source=iu&pf=m&fir=Nyhyr66T8Z4biM%253A%252CLI2EN1cPwTI_hM%252C_&usg=__DfnL9PRx4RoE1bfvSEd5DDnqwu4%3D&ved=0ahUKEwjeysX_0sbRAhWGSSYKHSyyDdUQyjcIMw&ei=L7p8WJ73BoaTmQGs5LaoDQ#imgrc=Nyhyr66T8Z4biM%3A" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
